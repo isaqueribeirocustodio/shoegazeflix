@@ -32,11 +32,8 @@ h1 {
 p {
     font-size: 20px;
 }
-img {
-    height: 100px;
-}
 
-.categoria-videos{
+.categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 10px;
@@ -45,6 +42,7 @@ img {
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
 }
 
 .categoria-videos img {
@@ -54,7 +52,7 @@ img {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 1px solid green;
+    border: 3px solid green;
 }
 
 .categoria h2 {
